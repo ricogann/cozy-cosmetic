@@ -7,8 +7,8 @@ export default function Card() {
                 <div className="absolute w-[30px] h-[30px] rounded-full bg-[#CDD5CA] z-10"></div>
                 <AiFillStar className="relative z-50" />
             </div> */}
-            <h1 className="font-bold">Dermatology Tested</h1>
-            <h5 className="text-[#A0A79A]">
+            <h1 className="font-bold md:text-[22px]">Dermatology Tested</h1>
+            <h5 className="text-[#A0A79A] md:text-[18px] mt-[11px]">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been
             </h5>
