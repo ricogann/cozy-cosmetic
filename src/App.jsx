@@ -1,6 +1,7 @@
 import Home from "./sections/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import FAQ from "./sections/FAQ";
 
 export default function App() {
     return (
@@ -9,6 +10,7 @@ export default function App() {
                 <div className="w-3/4">
                     <Navbar />
                     <Home />
+                    <FAQ />
                 </div>
             </div>
             <Footer />
