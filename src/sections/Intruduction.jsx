@@ -1,5 +1,7 @@
+import React, { useState, useEffect } from "react";
 import Button from "../components/Button";
-import assets from "../assets/Model.png";
+import model1 from "../assets/Model1.png";
+import model2 from "../assets/Model2.png";
 import assets2 from "../assets/Logo2.png"
 import Card from "../components/Card";
 import { AiFillInstagram } from "react-icons/ai";
@@ -8,10 +10,27 @@ import { BsFacebook } from "react-icons/bs";
 
 
 export default function Intruduction() {
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+    // Update the window width when the window is resized
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+
+    // Remove the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+    }, []);
+
+    const isMobile = windowWidth <= 768; // Adjust the breakpoint as needed
+
     return (
         <div className="">
             <div className="md:flex justify-between gap-14 md:mt-10 lg:gap-0 lg:h-[100vh]" >
-                <div className="mt-4 w-full">
+                <div className="md:justify-center mt-4 w-full">
                     <img
                         src={assets2}
                         alt="home-photos"
@@ -31,7 +50,7 @@ export default function Intruduction() {
                 </div>
                 <div className="items-center justify-center">
                     <img
-                        src={assets}
+                        src={isMobile ? model1 : model2}
                         alt="home-photos"
                         className=" h-full lg:w-[1262px]"
                     />
