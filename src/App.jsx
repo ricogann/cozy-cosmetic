@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import FAQ from "./sections/FAQ";
 import Products from "./sections/Products";
 import Intruduction from "./sections/Intruduction";
+import Problem from "./sections/Problem";
 
 export default function App() {
     return (
@@ -16,6 +17,11 @@ export default function App() {
                 <div className="bg-[#ECEBE6] flex items-center justify-center">
                     <div className="w-3/4">
                         <Intruduction />
+                    </div>
+                </div>
+                <div className="bg-[#F6F4F0] flex items-center justify-center">
+                    <div className="w-3/4">
+                        <Problem />
                     </div>
                 </div>
                 <div className="w-3/4">

@@ -1,4 +1,4 @@
-import { AiFillInstagram } from "react-icons/ai";
+import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsFacebook } from "react-icons/bs";
 
@@ -13,11 +13,13 @@ export default function Footer() {
                     <h1>Product</h1>
                     <h1>Contact</h1>
                 </div>
-                <div className="flex items-center gap-3 text-[17px] mt-3 md:text-[20px] lg:text-[25px] lg:mt-5">
-                    <AiFillInstagram />
-                    <IoLogoWhatsapp />
-                    <BsFacebook />
-                </div>
+<div className="flex justify-center items-center gap-3 lg:mt-5">
+                    <a href="https://www.instagram.com/cozycosmeticblitar/"><AiFillInstagram /></a>
+                    <a href="https://www.youtube.com/@cozycosmetic"><AiFillYoutube/></a>
+                    <a href=""><IoLogoWhatsapp /></a>
+                    <a href="https://www.facebook.com/profile.php?id=61551339453920"><BsFacebook /></a>
+</div>
+
             </div>
         </div>
     );
