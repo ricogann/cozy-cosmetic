@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from "react";
-import Button from "../components/Button";
+import { useState, useEffect } from "react";
 import model1 from "../assets/Model1.png";
 import model2 from "../assets/Model2.png";
 import assets2 from "../assets/Logo2.png";
-import Card from "../components/Card";
 import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsFacebook } from "react-icons/bs";
@@ -27,8 +25,8 @@ export default function Intruduction() {
     const isMobile = windowWidth <= 768; // Adjust the breakpoint as needed
 
     return (
-        <div className="">
-            <div className="md:flex justify-between gap-14 md:mt-10 lg:gap-0 lg:h-[100vh]">
+        <div className="xl:ml-10">
+            <div className="md:flex gap-14 md:mt-10 lg:gap-0 lg:h-[100vh]">
                 <div className="md:justify-center mt-4 w-full text-center ">
                     <img
                         src={assets2}

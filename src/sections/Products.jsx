@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Product from "../components/Product";
 import {
     bodyScrub,
@@ -20,7 +21,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export default function Products() {
-    const SlickArrowLeft = ({ currentSlide, ...props }) => (
+    const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
         <button
             {...props}
             className={

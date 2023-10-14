@@ -2,31 +2,33 @@ import Button from "../components/Button";
 import assets from "../assets/Bundle.png";
 import Card from "../components/Card";
 
-import { BsFillPlayFill, BsFillEmojiSmileFill } from "react-icons/bs";
+import { BsFillEmojiSmileFill } from "react-icons/bs";
 import { AiFillStar } from "react-icons/ai";
 import { FaShoppingBag } from "react-icons/fa";
 
 export default function Home() {
     return (
-        <div className="h-[100vh]"> 
-            <div className="md:flex justify-between gap-14 md:mt-10 lg:gap-0">
+        <div className="xl:ml-24">
+            <div className="md:flex justify-between gap-14 md:gap-6 lg:gap-14 md:mt-10 md:mb-16 lg:gap-0">
                 <div className="relative flex items-center justify-center">
                     <div className="absolute w-[220px] h-[220px] lg:w-[450px] lg:h-[450px] rounded-full bg-[#E4E4E4] z-10"></div>
                     <img
                         src={assets}
                         alt="home-photos"
-                        className="h-[318px] relative z-50 lg:h-[500px] rounded-xl"
+                        className="h-[318px] md:h-[380px] relative z-50 lg:h-[500px] rounded-xl"
                     />
                 </div>
                 <div className="mt-4 md:w-1/2">
                     <h5 className="text-[15px] text-orange-500 lg:text-[20px] ">
                         MEMPERKENALKAN
                     </h5>
-                    <h1 className="text-[72px] leading-[50px] text-[#333] font-semibold lg:text-[100px] lg:my-[20px] lg:leading-none">
+                    <h1 className="text-[52px] md:text-[45px] leading-[50px] text-[#333] font-semibold lg:text-[100px] lg:my-[20px] lg:leading-none">
                         Cozy Cosmetics
                     </h1>
                     <h3 className="text-[15px] text-[#A0A79A] mt-2 lg:text-[18px]">
-                        Merupakan produk perawatan wajah dari Cozy Cosmetic yang terbuat dari bahan alami, aman dan sudah bersertifikat CPKB (Cara Pembuatan Kosmetik yang Baik) dari BPOM.
+                        Merupakan produk perawatan wajah dari Cozy Cosmetic yang
+                        terbuat dari bahan alami, aman dan sudah bersertifikat
+                        CPKB (Cara Pembuatan Kosmetik yang Baik) dari BPOM.
                     </h3>
                     <div className="flex items-center gap-5 mt-6 lg:mt-10">
                         <Button />
