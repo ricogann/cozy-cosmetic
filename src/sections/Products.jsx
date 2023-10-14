@@ -1,14 +1,26 @@
 import Product from "../components/Product";
-import product1 from "../assets/product-1.png";
-import product2 from "../assets/product-2.png";
-import product3 from "../assets/product-3.png";
+import {
+    bodyScrub,
+    bundle,
+    dayCream,
+    facialWash,
+    lipBalmBubbleGum,
+    lipBalmChocolate,
+    lipBalmStrawberry,
+    lipBalmVanilla,
+    nightCream,
+    serum,
+    shampoo,
+    tonerExfoliasi,
+    tonerHydrating,
+} from "../assets/index";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 export default function Products() {
-    const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
+    const SlickArrowLeft = ({ currentSlide, ...props }) => (
         <button
             {...props}
             className={
@@ -63,23 +75,68 @@ export default function Products() {
     };
     const products = [
         {
-            name: "All stay foundation",
-            image: product1,
+            name: "Body Scrub",
+            image: bodyScrub,
             desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
         },
         {
-            name: "Product 2",
-            image: product2,
+            name: "Bundle",
+            image: bundle,
             desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
         },
         {
-            name: "Product 3",
-            image: product3,
+            name: "Day Cream",
+            image: dayCream,
             desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
         },
         {
-            name: "Product 3",
-            image: product3,
+            name: "Facial Wash",
+            image: facialWash,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Lip Balm Bubble Gum",
+            image: lipBalmBubbleGum,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Lip Balm Chocolate",
+            image: lipBalmChocolate,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Lip Balm Strawberry",
+            image: lipBalmStrawberry,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Lip Balm Vanilla",
+            image: lipBalmVanilla,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Night Cream",
+            image: nightCream,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Serum",
+            image: serum,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Shampoo",
+            image: shampoo,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Toner Exfoliasi",
+            image: tonerExfoliasi,
+            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+        },
+        {
+            name: "Toner Hydrating",
+            image: tonerHydrating,
             desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
         },
     ];

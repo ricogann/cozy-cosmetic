@@ -14,17 +14,17 @@ export default function App() {
                 <div className="w-3/4">
                     <Navbar />
                 </div>
-                <div className="bg-[#ECEBE6] flex items-center justify-center">
+                <div className="flex items-center justify-center">
                     <div className="w-3/4">
                         <Intruduction />
                     </div>
                 </div>
-                <div className="bg-[#F6F4F0] flex items-center justify-center">
+                <div className="flex items-center justify-center">
                     <div className="w-3/4">
                         <Problem />
                     </div>
                 </div>
-                <div className="bg-[#ECEBE6] flex items-center justify-center">
+                <div className="flex items-center justify-center">
                     <div className="w-3/4">
                         <Home />
                     </div>
@@ -33,7 +33,7 @@ export default function App() {
                     <FAQ />
                     <Products />
                 </div>
-                <div className="bg-[#ECEBE6] flex items-center justify-center">
+                <div className="flex items-center justify-center">
                     <div className="w-3/4">
                         <Alamat />
                     </div>

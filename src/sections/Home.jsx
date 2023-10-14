@@ -1,5 +1,5 @@
 import Button from "../components/Button";
-import assets from "../assets/assets-1.png";
+import assets from "../assets/Bundle.png";
 import Card from "../components/Card";
 
 import { BsFillPlayFill, BsFillEmojiSmileFill } from "react-icons/bs";
@@ -15,7 +15,7 @@ export default function Home() {
                     <img
                         src={assets}
                         alt="home-photos"
-                        className="h-[318px] relative z-50 lg:h-[631px]"
+                        className="h-[318px] relative z-50 lg:h-[500px] rounded-xl"
                     />
                 </div>
                 <div className="mt-4 md:w-1/2">
@@ -69,7 +69,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="mt-8 xl:h-screen xl:flex xl:flex-col xl:items-center xl:justify-center">
+            <div className="mt-8 xl:flex xl:flex-col xl:items-center xl:justify-center xl:mb-28">
                 <div className="relative">
                     <h1 className="text-[30px] text-center text-[#333] font-semibold lg:text-[48px]">
                         Why choose us

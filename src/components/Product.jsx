@@ -1,15 +1,14 @@
 export default function Product({ name, image, desc }) {
     return (
-        <div className="flex flex-col items-center justify-center w-[300px] lg:w-[340px] mb-5">
+        <div className="flex flex-col items-center justify-center w-[300px] lg:w-[340px] mb-5 text-[#333]">
             <div className="relative">
-                <div className="hidden md:block absolute w-[250px] h-[200px] bg-[#D2D8CD] -skew-x-12 z-10 top-16 -left-8"></div>
                 <img
                     src={image}
                     alt="foto-product"
-                    className="relative z-50 h-[240px]"
+                    className="relative z-50 h-[240px] rounded-xl"
                 />
             </div>
-            <div className="mt-12 flex flex-col items-center justify-center text-center gap-3">
+            <div className="mt-12 md:mt-6 flex flex-col items-center justify-center text-center gap-3">
                 <h1 className="text-[22px] text-[#3F6745]">{name}</h1>
                 <h5 className="w-3/4 lg:w-full">{desc}</h5>
             </div>
