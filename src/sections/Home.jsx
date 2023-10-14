@@ -8,7 +8,7 @@ import { FaShoppingBag } from "react-icons/fa";
 
 export default function Home() {
     return (
-        <div className="">
+        <div className="h-[100vh]"> 
             <div className="md:flex justify-between gap-14 md:mt-10 lg:gap-0">
                 <div className="relative flex items-center justify-center">
                     <div className="absolute w-[220px] h-[220px] lg:w-[450px] lg:h-[450px] rounded-full bg-[#E4E4E4] z-10"></div>
@@ -19,24 +19,17 @@ export default function Home() {
                     />
                 </div>
                 <div className="mt-4 md:w-1/2">
-                    <h5 className="text-[15px] text-orange-500 lg:text-[20px]">
-                        Normal to oily skin
+                    <h5 className="text-[15px] text-orange-500 lg:text-[20px] ">
+                        MEMPERKENALKAN
                     </h5>
-                    <h1 className="text-[35px] leading-[50px] text-[#333] font-semibold lg:text-[72px] lg:my-[20px] lg:leading-none">
-                        Pourless Liquid Foundation
+                    <h1 className="text-[72px] leading-[50px] text-[#333] font-semibold lg:text-[100px] lg:my-[20px] lg:leading-none">
+                        Cozy Cosmetics
                     </h1>
                     <h3 className="text-[15px] text-[#A0A79A] mt-2 lg:text-[18px]">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
+                        Merupakan produk perawatan wajah dari Cozy Cosmetic yang terbuat dari bahan alami, aman dan sudah bersertifikat CPKB (Cara Pembuatan Kosmetik yang Baik) dari BPOM.
                     </h3>
                     <div className="flex items-center gap-5 mt-6 lg:mt-10">
                         <Button />
-                        <div className="flex items-center justify-center text-[#3F6745]">
-                            <BsFillPlayFill className="text-[25px] lg:text-[28px]" />
-                            <h1 className="text-[15px] lg:text-[18px]">
-                                How it works
-                            </h1>
-                        </div>
                     </div>
                     <div className="hidden mt-5 lg:flex lg:items-center lg:gap-10 lg:mt-7 ">
                         <div className="flex items-start justify-start gap-3">
