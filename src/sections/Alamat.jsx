@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import assets from "../assets/assets-1.png";
 import Card from "../components/Card";
+import Map from "../components/Map";
 
 import { BsFillPlayFill, BsFillEmojiSmileFill } from "react-icons/bs";
 import { AiFillStar } from "react-icons/ai";
@@ -9,7 +10,7 @@ import { FaShoppingBag } from "react-icons/fa";
 export default function Alamat() {
     return (
 
-         <div className="items-center justify-center  ">
+         <div className="h-[100vh] mt-15 gap-5 flex flex-col">
 
                 <div className="relative">
                     <h1 className="text-[30px] text-center text-[#333] font-semibold lg:text-[48px]">
@@ -29,15 +30,12 @@ export default function Alamat() {
                             strokeWidth={4}
                         />
                     </svg>
-                    <h5 className="mt-5 text-center text-[#A0A79A] text-[13px] md:text-[16px]">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
-                    </h5>
                 </div>
-                <div className="flex flex-col gap-3 mt-8 mb-8 lg:flex-row ">
-                    <Card />
-                    <Card />
-                    <Card />
+                <div className="justify-center items-center flex flex-col w-[800px] mt-8 mb-8 lg:flex-col ">
+                    <Map />
+                     <h3 className="text-[15px] text-[#A0A79A] mt-2 lg:text-[18px]">
+                        Merupakan produk perawatan wajah dari Cozy Cosmetic yang terbuat dari bahan alami, aman dan sudah bersertifikat CPKB (Cara Pembuatan Kosmetik yang Baik) dari BPOM.
+                    </h3>
                 </div>
             </div>
 

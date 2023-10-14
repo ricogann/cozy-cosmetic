@@ -15,12 +15,12 @@ export default function App() {
                     <Navbar />
                 </div>
                 <div className="flex items-center justify-center">
-                    <div className="w-3/4">
+                    <div className="w-3/4 ">
                         <Intruduction />
                     </div>
                 </div>
-                <div className="flex items-center justify-center">
-                    <div className="w-3/4">
+                <div className="flex items-center justify-center ">
+                    <div className="w-3/4 ">
                         <Problem />
                     </div>
                 </div>
@@ -34,7 +34,7 @@ export default function App() {
                     <Products />
                 </div>
                 <div className="flex items-center justify-center">
-                    <div className="w-3/4">
+                    <div className="">
                         <Alamat />
                     </div>
                 </div>
