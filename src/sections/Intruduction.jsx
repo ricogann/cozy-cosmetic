@@ -43,7 +43,7 @@ export default function Intruduction() {
                         Nggak Lagi Ribet Ganti Produk Karena Nggak Cocok.
                     </h3>
                      <div className="md:justify-center flex items-center gap-3 text-[17px] mt-3 md:text-[20px] lg:text-[25px] lg:mt-5">
-                    <a href=""><AiFillInstagram /></a>
+                    <a href="https://www.instagram.com/cozycosmeticblitar/"><AiFillInstagram /></a>
                     <a href="https://www.youtube.com/@cozycosmetic"><AiFillYoutube/></a>
                     <a href=""><IoLogoWhatsapp /></a>
                     <a href="https://www.facebook.com/profile.php?id=61551339453920"><BsFacebook /></a>

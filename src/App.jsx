@@ -24,8 +24,13 @@ export default function App() {
                         <Problem />
                     </div>
                 </div>
+                <div className="bg-[#ECEBE6] flex items-center justify-center">
+                    <div className="w-3/4">
+                        <Home />
+                    </div>
+                </div>
                 <div className="w-3/4">
-                    <Home />
+                    
                     <FAQ />
                     <Products />
                 </div>
