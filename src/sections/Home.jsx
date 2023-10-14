@@ -9,7 +9,7 @@ import { FaShoppingBag } from "react-icons/fa";
 export default function Home() {
     return (
         <div className="xl:ml-24">
-            <div className="md:flex justify-between gap-14 md:gap-6 lg:gap-14 md:mt-10 md:mb-16 lg:gap-0">
+            <div className="md:flex justify-between gap-14 md:gap-6 lg:gap-14 md:mt-10 md:mb-16">
                 <div className="relative flex items-center justify-center">
                     <div className="absolute w-[220px] h-[220px] lg:w-[450px] lg:h-[450px] rounded-full bg-[#E4E4E4] z-10"></div>
                     <img
