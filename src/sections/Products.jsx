@@ -84,7 +84,7 @@ export default function Products() {
         },
     ];
     return (
-        <div className="">
+        <div className="xl:h-screen">
             <h1 className="text-center text-[#333] mb-10 text-[30px] lg:text-[48px] font-semibold">
                 Products
             </h1>

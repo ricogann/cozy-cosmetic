@@ -1,5 +1,5 @@
 import Home from "./sections/Home";
-import Alamat from "./sections/Alamat"
+import Alamat from "./sections/Alamat";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import FAQ from "./sections/FAQ";
@@ -30,7 +30,6 @@ export default function App() {
                     </div>
                 </div>
                 <div className="w-3/4">
-                    
                     <FAQ />
                     <Products />
                 </div>

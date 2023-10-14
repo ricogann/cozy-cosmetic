@@ -69,7 +69,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 xl:h-screen xl:flex xl:flex-col xl:items-center xl:justify-center">
                 <div className="relative">
                     <h1 className="text-[30px] text-center text-[#333] font-semibold lg:text-[48px]">
                         Why choose us

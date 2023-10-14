@@ -1,7 +1,7 @@
 export default function FAQ() {
     return (
-        <div className="my-10">
-            <h1 className="text-center text-[30px] lg:text-[48px] text-[#333] font-semibold mb-5">
+        <div className="my-10 xl:h-screen">
+            <h1 className=" text-center text-[30px] lg:text-[48px] text-[#333] font-semibold mb-5">
                 FAQ?
             </h1>
             <div className="collapse collapse-arrow border-2 border-[#333]">

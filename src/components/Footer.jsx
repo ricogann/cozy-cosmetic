@@ -13,13 +13,20 @@ export default function Footer() {
                     <h1>Product</h1>
                     <h1>Contact</h1>
                 </div>
-<div className="flex justify-center items-center gap-3 lg:mt-5">
-                    <a href="https://www.instagram.com/cozycosmeticblitar/"><AiFillInstagram /></a>
-                    <a href="https://www.youtube.com/@cozycosmetic"><AiFillYoutube/></a>
-                    <a href=""><IoLogoWhatsapp /></a>
-                    <a href="https://www.facebook.com/profile.php?id=61551339453920"><BsFacebook /></a>
-</div>
-
+                <div className="flex justify-center items-center gap-3 lg:mt-5">
+                    <a href="https://www.instagram.com/cozycosmeticblitar/">
+                        <AiFillInstagram />
+                    </a>
+                    <a href="https://www.youtube.com/@cozycosmetic">
+                        <AiFillYoutube />
+                    </a>
+                    <a href="">
+                        <IoLogoWhatsapp />
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61551339453920">
+                        <BsFacebook />
+                    </a>
+                </div>
             </div>
         </div>
     );
