@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins-regular-webfont.woff') format('woff2'),
+       url('./assets/Fonts/poppins-regular-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}

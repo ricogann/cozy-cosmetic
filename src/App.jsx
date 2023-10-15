@@ -9,6 +9,8 @@ import {
 } from "./sections/index";
 import { Footer, Navbar } from "./components/index";
 
+
+
 export default function App() {
     return (
         <div className="h-full w-full bg-[#F6F4F0] overflow-hidden">
