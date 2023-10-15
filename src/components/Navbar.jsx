@@ -5,8 +5,8 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { FaQuestion, FaShoppingCart, FaMapMarkerAlt } from "react-icons/fa";
 import { MdReportProblem } from "react-icons/md";
 import { GoHomeFill } from "react-icons/go";
-import {FaBirthdayCake} from "react-icons/fa"
-import {AiOutlineCaretDown} from "react-icons/ai"
+import { FaBirthdayCake } from "react-icons/fa";
+import { AiOutlineCaretDown } from "react-icons/ai";
 import { Link } from "react-scroll";
 
 import Logo from "../assets/Logo.png";
@@ -28,13 +28,69 @@ export default function Navbar() {
                     isOpen ? "block transition duration-1000" : "hidden"
                 } px-8 py-3 -mt-3 mx-12 bg-[#3f6745] flex flex-col gap-1 rounded-xl`}
             >
-                <h1 className="font-semibold text-white">Home</h1>
-                <h1 className="font-semibold text-white">Problem</h1>
-                <h1 className="font-semibold text-white">Consul</h1>
-                <h1 className="font-semibold text-white">FAQ</h1>
-                <h1 className="font-semibold text-white">Products</h1>
-                <h1 className="font-semibold text-white">Map</h1>
-                <h1 className="font-semibold text-white">Souvenir</h1>
+                <Link
+                    to="homeSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <h1 className="font-semibold text-white">Home</h1>
+                </Link>
+                <Link
+                    to="problemSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <h1 className="font-semibold text-white">Problem</h1>
+                </Link>
+                <Link
+                    to="konsulSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <h1 className="font-semibold text-white">Consul</h1>
+                </Link>
+                <Link
+                    to="faqSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <h1 className="font-semibold text-white">FAQ</h1>
+                </Link>
+                <Link
+                    to="productSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <h1 className="font-semibold text-white">Products</h1>
+                </Link>
+                <Link
+                    to="mapSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <h1 className="font-semibold text-white">Map</h1>
+                </Link>
+                <Link
+                    to="souvenirSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <h1 className="font-semibold text-white">Souvenir</h1>
+                </Link>
             </div>
             <nav>
                 <div
@@ -42,7 +98,7 @@ export default function Navbar() {
                 >
                     <div className="flex flex-col items-center gap-2">
                         <img src={Logo} alt="logo" className="h-12" />
-                        <AiOutlineCaretDown/>
+                        <AiOutlineCaretDown />
                     </div>
 
                     <div className="">
@@ -160,7 +216,7 @@ export default function Navbar() {
                             </div>
                         </div>
 
-                                                <div className="pt-2">
+                        <div className="pt-2">
                             <div className="group text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 rounded-md mt-2">
                                 <Link
                                     to="souvenirSection"

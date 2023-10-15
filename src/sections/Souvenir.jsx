@@ -1,9 +1,6 @@
 /* eslint-disable no-unused-vars */
 import Product from "../components/Product";
-import {
-    Topi,
-    ToteBag
-} from "../assets/index";
+import { Topi, ToteBag } from "../assets/index";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -74,16 +71,18 @@ export default function Souvenir() {
             image: ToteBag,
             desc: "Souvenir ToteBag Cozy Cosmetics Limited Edition",
         },
-                {
+        {
             name: "ToteBag",
             image: ToteBag,
             desc: "Souvenir ToteBag Cozy Cosmetics Limited Edition",
         },
-
     ];
     return (
         <div className="xl:h-screen">
-            <h1 className="text-center text-[#333] mb-10 text-[30px] lg:text-[48px] font-semibold" id="souvenirSection">
+            <h1
+                className="text-center text-[#333] mb-10 text-[30px] lg:text-[48px] font-semibold"
+                id="souvenirSection"
+            >
                 Souvenir
             </h1>
             <Slider {...settings}>

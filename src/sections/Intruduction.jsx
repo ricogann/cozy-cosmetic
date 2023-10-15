@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { useState, useEffect } from "react";
 import model1 from "../assets/Model1.png";
 import model2 from "../assets/Model2.png";
@@ -39,27 +40,35 @@ export default function Intruduction() {
                     <h3 className=" text-[15px] text-[#F29949] mt-2 lg:text-[18px] xl:text-[18px 2xl:text-[32px]">
                         Nggak Lagi Ribet Ganti Produk Karena Nggak Cocok.
                     </h3>
-<div className="flex items-center justify-center gap-3 text-[17px] mt-3 md:text-[20px] lg:text-[25px] lg:mt-5 mb-5">
-    <a href="https://www.instagram.com/cozycosmeticblitar/" target="_blank">
-        <AiFillInstagram />
-    </a>
-    <a href="https://www.youtube.com/@cozycosmetic" target="_blank">
-        <AiFillYoutube />
-    </a>
-    <a href="https://wa.me/+6285772321734" target="_blank">
-        <IoLogoWhatsapp />
-    </a>
-    <a href="https://www.facebook.com/profile.php?id=61551339453920" target="_blank">
-        <BsFacebook />
-    </a>
-</div>
-
+                    <div className="flex items-center justify-center gap-3 text-[17px] mt-3 md:text-[20px] lg:text-[25px] lg:mt-5 mb-5">
+                        <a
+                            href="https://www.instagram.com/cozycosmeticblitar/"
+                            target="_blank"
+                        >
+                            <AiFillInstagram />
+                        </a>
+                        <a
+                            href="https://www.youtube.com/@cozycosmetic"
+                            target="_blank"
+                        >
+                            <AiFillYoutube />
+                        </a>
+                        <a href="https://wa.me/+6285772321734" target="_blank">
+                            <IoLogoWhatsapp />
+                        </a>
+                        <a
+                            href="https://www.facebook.com/profile.php?id=61551339453920"
+                            target="_blank"
+                        >
+                            <BsFacebook />
+                        </a>
+                    </div>
                 </div>
-                <div className="items-center justify-center">
+                <div className="flex items-center justify-center">
                     <img
                         src={isMobile ? model1 : model2}
                         alt="home-photos"
-                        className=" h-full lg:w-[1262px]"
+                        className="h-full lg:w-[1200px]"
                     />
                 </div>
             </div>
