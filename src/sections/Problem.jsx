@@ -4,10 +4,10 @@ export default function Problem() {
     return (
         <div className="md:flex justify-between gap-14 my-12 md:my-18 lg:gap-0 lg:h-screen xl:ml-24">
             <div className="md:justify-center w-full text-center flex flex-col gap-5">
-                <h1 className="text-[22px] leading-[50px] text-[#F29949] font-bold xl:text-[24px] lg:text-[24px] 2xl:text-[90px] lg:my-[20px] lg:leading-none">
+                <h1  id="problemSection" className="text-[22px] leading-[50px] text-[#F29949] font-bold xl:text-[24px] lg:text-[24px] 2xl:text-[90px] lg:my-[20px] lg:leading-none ">
                     AMBIL TINDAKAN SEGERA!
                 </h1>
-                <h3 className="text-[18px] font-semibold text-[#3F6745] mt-2 lg:text-[36px] xl:text-[36px] 2xl:text-[32px]">
+                <h3 className="text-[18px] font-semibold text-[#3F6745] mt-2 lg:text-[24px] xl:text-[24px] 2xl:text-[32px]">
                     Sebelum masalah kulit wajah semakin bertambah dan susah
                     diatasi.
                 </h3>

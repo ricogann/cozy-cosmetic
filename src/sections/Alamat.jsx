@@ -2,9 +2,9 @@ import Map from "../components/Map";
 
 export default function Alamat() {
     return (
-        <div className="mt-15 gap-5 flex flex-col p-14">
+        <div className="gap-5 flex flex-col p-14" id="mapSection">
             <div className="relative">
-                <h1 className="text-[30px] text-center text-[#333] font-semibold lg:text-[48px]">
+                <h1 className="text-[30px] text-center text-[#333] font-semibold lg:text-[48px]" >
                     Alamat
                 </h1>
                 <svg
@@ -22,7 +22,7 @@ export default function Alamat() {
                     />
                 </svg>
             </div>
-            <div className="justify-center items-center flex flex-col mt-8 mb-8 lg:flex-col ">
+            <div className="justify-center items-center flex flex-col mt-8 mb-8 lg:flex-col " >
                 <Map />
                 <h3 className="text-[15px] text-center text-[#A0A79A] mt-4 lg:text-[25px] lg:mt-10 lg:mx-24">
                     Merupakan produk perawatan wajah dari Cozy Cosmetic yang

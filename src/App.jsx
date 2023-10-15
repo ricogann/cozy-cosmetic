@@ -5,6 +5,7 @@ import {
     Products,
     Intruduction,
     Problem,
+    Souvenir
 } from "./sections/index";
 import { Footer, Navbar } from "./components/index";
 
@@ -20,26 +21,31 @@ export default function App() {
                         <Intruduction />
                     </div>
                 </div>
-                <div className="flex items-center justify-center md:justify-end md:mr-10 lg:items-center lg:justify-center lg:mr-0">
-                    <div className="w-3/4" id="problemSection">
+                <div className="flex items-center justify-center md:justify-end md:mr-10 lg:items-center lg:justify-center lg:mr-0 bg-[#ECEBE6]">
+                    <div className="w-3/4">
                         <Problem />
                     </div>
                 </div>
                 <div className="flex items-center justify-center md:justify-end md:mr-10 lg:items-center lg:justify-center lg:mr-0">
-                    <div className="w-3/4" id="konsulSection">
+                    <div className="w-3/4" >
                         <Home />
                     </div>
                 </div>
-                <div className="w-3/4" id="faqSection">
+                <div className="bg-[#ECEBE6] w-full items-center justify-center flex">
+                <div className="w-3/4" >
                     <FAQ />
                 </div>
-                <div className="w-3/4 md:ml-32" id="productSection">
+                </div>
+                <div className="w-3/4 md:ml-32" >
                     <Products />
                 </div>
-                <div className="flex items-center justify-center md:ml-28">
-                    <div className="" id="mapSection">
+                <div className="flex items-center justify-center md:ml-28 bg-[#ECEBE6] w-screen">
+                    <div className="" >
                         <Alamat />
                     </div>
+                </div>
+                <div className="w-3/4 md:ml-32" >
+                    <Souvenir />
                 </div>
             </div>
             <Footer />

@@ -14,16 +14,16 @@ export default function Footer() {
                     <h1>Contact</h1>
                 </div>
                 <div className="flex justify-center items-center gap-3 lg:mt-5">
-                    <a href="https://www.instagram.com/cozycosmeticblitar/">
+                    <a href="https://www.instagram.com/cozycosmeticblitar/" target="_blank">
                         <AiFillInstagram />
                     </a>
-                    <a href="https://www.youtube.com/@cozycosmetic">
+                    <a href="https://www.youtube.com/@cozycosmetic" target="_blank">
                         <AiFillYoutube />
                     </a>
-                    <a href="">
+                    <a href="https://wa.me/+6285772321734" target="_blank">
                         <IoLogoWhatsapp />
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=61551339453920">
+                    <a href="https://www.facebook.com/profile.php?id=61551339453920" target="_blank">
                         <BsFacebook />
                     </a>
                 </div>

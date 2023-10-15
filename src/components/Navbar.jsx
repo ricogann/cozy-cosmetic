@@ -5,6 +5,8 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 import { FaQuestion, FaShoppingCart, FaMapMarkerAlt } from "react-icons/fa";
 import { MdReportProblem } from "react-icons/md";
 import { GoHomeFill } from "react-icons/go";
+import {FaBirthdayCake} from "react-icons/fa"
+import {AiOutlineCaretDown} from "react-icons/ai"
 import { Link } from "react-scroll";
 
 import Logo from "../assets/Logo.png";
@@ -32,6 +34,7 @@ export default function Navbar() {
                 <h1 className="font-semibold text-white">FAQ</h1>
                 <h1 className="font-semibold text-white">Products</h1>
                 <h1 className="font-semibold text-white">Map</h1>
+                <h1 className="font-semibold text-white">Souvenir</h1>
             </div>
             <nav>
                 <div
@@ -39,7 +42,7 @@ export default function Navbar() {
                 >
                     <div className="flex flex-col items-center gap-2">
                         <img src={Logo} alt="logo" className="h-12" />
-                        <h1 className="text-[#F6F4F0] font-semibold">Cozy</h1>
+                        <AiOutlineCaretDown/>
                     </div>
 
                     <div className="">
@@ -152,6 +155,25 @@ export default function Navbar() {
                                     </span>
                                     <span className="group-hover:block hidden font-semibold group-hover:duration-300">
                                         Map
+                                    </span>
+                                </Link>
+                            </div>
+                        </div>
+
+                                                <div className="pt-2">
+                            <div className="group text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 rounded-md mt-2">
+                                <Link
+                                    to="souvenirSection"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >
+                                    <span className="group-hover:hidden text-2xl block float-left">
+                                        <FaBirthdayCake />
+                                    </span>
+                                    <span className="group-hover:block hidden font-semibold group-hover:duration-300">
+                                        Souvenir
                                     </span>
                                 </Link>
                             </div>

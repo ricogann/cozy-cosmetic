@@ -78,72 +78,72 @@ export default function Products() {
         {
             name: "Body Scrub",
             image: bodyScrub,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Produk perawatan kulit yang membantu mengangkat sel-sel kulit mati",
         },
         {
             name: "Bundle",
             image: bundle,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Satu Paket Produk Cozy Cosmetics dengan harga khusus atau diskon.",
         },
         {
             name: "Day Cream",
             image: dayCream,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Produk perawatan kulit pada pagi hari, perlindungan ekstra sepanjang hari.",
         },
         {
             name: "Facial Wash",
             image: facialWash,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Produk pembersih yang dirancang khusus untuk membersihkan kulit wajah dari kotoran",
         },
         {
             name: "Lip Balm Bubble Gum",
             image: lipBalmBubbleGum,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Lip balm beraroma Bubble Gum, menjaga bibir tetap lembut dan harum",
         },
         {
             name: "Lip Balm Chocolate",
             image: lipBalmChocolate,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Lip balm dengan aroma cokelat, perlindungan ekstra untuk bibir dengan sentuhan cokelat.",
         },
         {
             name: "Lip Balm Strawberry",
             image: lipBalmStrawberry,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Lip balm dengan aroma stroberi, menjaga bibir Anda lembut dan memberikan aroma manis stroberi yang segar",
         },
         {
             name: "Lip Balm Vanilla",
             image: lipBalmVanilla,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Lip balm dengan aroma vanila, memberikan kelembapan dan aroma manis vanila untuk bibir yang lembut dan harum",
         },
         {
             name: "Night Cream",
             image: nightCream,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Produk perawatan kulit pada pagi hari, perlindungan ekstra malam hari.",
         },
         {
             name: "Serum",
             image: serum,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Produk perawatan kulit intensif untuk hasil kulit yang lebih baik",
         },
         {
             name: "Shampoo",
             image: shampoo,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Produk pembersih rambut untuk membersihkan dan merawat rambut Anda",
         },
         {
             name: "Toner Exfoliasi",
             image: tonerExfoliasi,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Produk perawatan kulit untuk mengangkat sel-sel kulit mati dan meningkatkan tekstur kulit",
         },
         {
             name: "Toner Hydrating",
             image: tonerHydrating,
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            desc: "Produk perawatan kulit yang memberikan kelembapan ekstra untuk kulit yang terhidrasi.",
         },
     ];
     return (
         <div className="xl:h-screen">
-            <h1 className="text-center text-[#333] mb-10 text-[30px] lg:text-[48px] font-semibold">
+            <h1 className="text-center text-[#333] mb-10 text-[30px] lg:text-[48px] font-semibold" id="productSection">
                 Products
             </h1>
             <Slider {...settings}>

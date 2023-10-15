@@ -27,9 +27,9 @@ export default function FAQ() {
     ];
 
     return (
-        <div className="my-10 md:my-24 lg:h-screen lg:m-0">
-            <h1 className=" text-center text-[30px] lg:text-[48px] text-[#333] font-semibold mb-5 md:ml-36 lg:ml-0">
-                FAQ?
+        <div className="my-10 md:my-24 lg:h-[100vh] lg:m-0">
+            <h1 className=" text-center text-[30px] lg:text-[48px] text-[#333] font-semibold mb-5 md:ml-36 lg:ml-0" id="faqSection">
+                FREQUENTLY ASKED QUESTIONS
             </h1>
             {faq.map((item, index) => (
                 <div

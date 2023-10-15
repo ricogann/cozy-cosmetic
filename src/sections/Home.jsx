@@ -19,10 +19,10 @@ export default function Home() {
                     />
                 </div>
                 <div className="mt-4 md:w-1/2">
-                    <h5 className="text-[15px] text-orange-500 lg:text-[20px] ">
+                    <h5 id="konsulSection" className="text-[15px] text-orange-500 lg:text-[20px] ">
                         MEMPERKENALKAN
                     </h5>
-                    <h1 className="text-[52px] md:text-[45px] leading-[50px] text-[#333] font-semibold lg:text-[100px] lg:my-[20px] lg:leading-none">
+                    <h1 className="text-[52px] md:text-[45px] leading-[50px] text-[#3F6745] font-semibold lg:text-[100px] lg:my-[20px] lg:leading-none " >
                         Cozy Cosmetics
                     </h1>
                     <h3 className="text-[15px] text-[#A0A79A] mt-2 lg:text-[18px]">
@@ -66,8 +66,11 @@ export default function Home() {
             </div>
             <div className="mt-8 xl:flex xl:flex-col xl:items-center xl:justify-center xl:mb-28">
                 <div className="relative">
-                    <h1 className="text-[30px] text-center text-[#333] font-semibold lg:text-[48px]">
-                        Why choose us
+                    <h1 className="text-[12px] text-center text-[#333] font-semibold lg:text-[20px] text-orange-500">
+                        MENGAPA HARUS MEMILIH
+                    </h1>
+                    <h1 className="text-[36px] mt-4 text-center text-[#333] font-semibold lg:text-[48px]">
+                        Cozy Cosmetics
                     </h1>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -83,14 +86,8 @@ export default function Home() {
                             strokeWidth={4}
                         />
                     </svg>
-                    <h5 className="mt-5 text-center text-[#A0A79A] text-[13px] md:text-[16px]">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
-                    </h5>
                 </div>
                 <div className="flex flex-col gap-3 mt-8 lg:flex-row">
-                    <Card />
-                    <Card />
                     <Card />
                 </div>
             </div>

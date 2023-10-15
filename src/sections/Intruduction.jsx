@@ -33,26 +33,27 @@ export default function Intruduction() {
                         alt="home-photos"
                         className="h-[300px] md:h-[10px] lg:h-[300px] 2xl:h-[500px] lg:ml-20"
                     />
-                    <h1 className="text-[35px] leading-[50px] text-[#333] font-bold xl:text-[48px] lg:text-[48px] 2xl:text-[90px] lg:my-[20px] lg:leading-none">
+                    <h1 className="text-[35px] leading-[50px] text-[#333] font-bold xl:text-[48px] lg:text-[48px] 2xl:text-[80px] lg:my-[20px] lg:leading-none">
                         Atasi Masalah Kulit Wajah Anda
                     </h1>
                     <h3 className=" text-[15px] text-[#F29949] mt-2 lg:text-[18px] xl:text-[18px 2xl:text-[32px]">
                         Nggak Lagi Ribet Ganti Produk Karena Nggak Cocok.
                     </h3>
-                    <div className="flex items-center justify-center gap-3 text-[17px] mt-3 md:text-[20px] lg:text-[25px] lg:mt-5 mb-5">
-                        <a href="https://www.instagram.com/cozycosmeticblitar/">
-                            <AiFillInstagram />
-                        </a>
-                        <a href="https://www.youtube.com/@cozycosmetic">
-                            <AiFillYoutube />
-                        </a>
-                        <a href="">
-                            <IoLogoWhatsapp />
-                        </a>
-                        <a href="https://www.facebook.com/profile.php?id=61551339453920">
-                            <BsFacebook />
-                        </a>
-                    </div>
+<div className="flex items-center justify-center gap-3 text-[17px] mt-3 md:text-[20px] lg:text-[25px] lg:mt-5 mb-5">
+    <a href="https://www.instagram.com/cozycosmeticblitar/" target="_blank">
+        <AiFillInstagram />
+    </a>
+    <a href="https://www.youtube.com/@cozycosmetic" target="_blank">
+        <AiFillYoutube />
+    </a>
+    <a href="https://wa.me/+6285772321734" target="_blank">
+        <IoLogoWhatsapp />
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61551339453920" target="_blank">
+        <BsFacebook />
+    </a>
+</div>
+
                 </div>
                 <div className="items-center justify-center">
                     <img

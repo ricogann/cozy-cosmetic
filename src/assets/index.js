@@ -11,6 +11,8 @@ import serum from "./Serum.png";
 import shampoo from "./Shampoo.png";
 import tonerExfoliasi from "./Toner Exfoliasi.png";
 import tonerHydrating from "./Toner Hydrating.png";
+import Topi from "./Topi.png";
+import ToteBag from "./Tote Bag.png";
 
 export {
     bodyScrub,
@@ -26,4 +28,6 @@ export {
     shampoo,
     tonerExfoliasi,
     tonerHydrating,
+    Topi,
+    ToteBag
 };
