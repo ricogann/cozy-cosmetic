@@ -12,7 +12,7 @@ export default function Testimoni({ name, image, desc }) {
                 <img
                     src={image}
                     alt="foto-product"
-                    className="relative z-50 h-[240px] rounded-xl"
+                    className="h-[150px] rounded-lg "
                 />
                     <h1 className="text-[22px] text-[#3F6745]">{name}</h1>
                     🌟🌟🌟🌟🌟
