@@ -6,6 +6,7 @@ import {
     Intruduction,
     Problem,
     Souvenir,
+    Testimoni
 } from "./sections/index";
 import { Footer, Navbar } from "./components/index";
 import "animate.css";
@@ -96,6 +97,16 @@ export default function App() {
                             animateOnce={true}
                         >
                             <Alamat />
+                        </ScrollAnimation>
+                    </div>
+                </div>
+                <div className="flex items-center justify-center md:ml-28  w-screen">
+                    <div className="">
+                        <ScrollAnimation
+                            animateIn="animate__animated animate__animate__backInUp"
+                            animateOnce={true}
+                        >
+                            <Testimoni />
                         </ScrollAnimation>
                     </div>
                 </div>

@@ -13,6 +13,9 @@ import tonerExfoliasi from "./Toner Exfoliasi.png";
 import tonerHydrating from "./Toner Hydrating.png";
 import Topi from "./Topi.png";
 import ToteBag from "./Tote Bag.png";
+import Edelyn from "./Edelyn.png";
+import Larisa from "./Larisa.png";
+import Punipun from "./Punipun.png";
 
 export {
     bodyScrub,
@@ -29,5 +32,8 @@ export {
     tonerExfoliasi,
     tonerHydrating,
     Topi,
-    ToteBag
+    ToteBag,
+    Edelyn,
+    Larisa,
+    Punipun
 };

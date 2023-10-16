@@ -5,5 +5,6 @@ import Products from "./Products";
 import Intruduction from "./Intruduction";
 import Problem from "./Problem";
 import Souvenir from "./Souvenir";
+import Testimoni from "./Testimoni";
 
-export { Home, Alamat, FAQ, Products, Intruduction, Problem, Souvenir };
+export { Home, Alamat, FAQ, Products, Intruduction, Problem, Souvenir, Testimoni };
