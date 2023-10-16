@@ -1,4 +1,21 @@
 import CardIcons from "../components/CardIcons";
+const Problems1 = [
+        {
+            desc: "Rajin membersihkan wajah usai beraktivitas",
+        },
+        {
+            desc: "Menerapkan pola hidup sehat.",
+        },
+]
+const Problems2 = [
+        {
+            desc: "Memilih dan memakai produk skincare yang tepat.",
+        },
+        {
+            desc: "Rutin melakukan eksfoliasi.",
+        },
+]
+
 
 export default function Problem() {
     return (
@@ -17,12 +34,22 @@ export default function Problem() {
                 </h4>
                 <div className="flex flex-col gap-2 lg:flex-row lg:gap-10">
                     <div className="flex flex-col gap-2">
-                        <CardIcons />
-                        <CardIcons />
+                    {Problems1.map((product, index) => (
+                    <div className="" key={index}>
+                        <CardIcons
+                            desc={product.desc}
+                        />
+                    </div>
+                    ))}
                     </div>
                     <div className="flex flex-col gap-2">
-                        <CardIcons />
-                        <CardIcons />
+                    {Problems2.map((product, index) => (
+                    <div className="" key={index}>
+                        <CardIcons
+                            desc={product.desc}
+                        />
+                    </div>
+                    ))}
                     </div>
                 </div>
                 <h3 className="text-[18px] font-semibold text-[#3F6745] mt-2 lg:text-[36px] xl:text-[18px 2xl:text-[32px]">

@@ -1,6 +1,6 @@
 import { BiCheckDouble } from "react-icons/bi";
 
-export default function CardIcons() {
+export default function CardIcons({ desc }) {
     return (
         <div className="p-5 bg-[#FFFFFF] flex flex-row gap-5">
             {/* <div className="relative">
@@ -9,7 +9,7 @@ export default function CardIcons() {
             </div> */}
             <BiCheckDouble className="h-[50px] w-[50px] " style={{ color: "#F29949" }}/>
             <h5 className="text-[#A0A79A] md:text-[18px] mt-[11px]">
-                Rajin membersihkan wajah usai beraktivitas
+                { desc }
             </h5>
         </div>
     );
