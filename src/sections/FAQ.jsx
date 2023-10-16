@@ -1,28 +1,23 @@
 export default function FAQ() {
     const faq = [
         {
-            question: "What is Lorem Ipsum?",
-            answer: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            question: "Apakah Produk Cozy Cosmetic Membuat Ketergantungan?",
+            answer: "Produk Cozy Cosmetic tidak membuat ketergantungan dan aman untuk pemakaian jangka panjang.",
         },
         {
-            question: "Why do we use it?",
-            answer: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            question:
+                "Apakah Produk Cozy Cosmetics Berbahaya untuk ibu Hamil & Menyusui?",
+            answer: "Produk Cozy Cosmetic aman untuk ibu hamil dan menyusui, tetapi konsultasi dengan dokter dianjurkan.",
         },
         {
-            question: "Where does it come from?",
-            answer: "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+            question:
+                "Bolehkah Memakai Make Up Ketika Menggunakan Krim Pagi atau Malam?",
+            answer: "Tidak ada larangan menggunakan make-up saat menggunakan krim pagi atau malam dari Cozy Cosmetic.",
         },
         {
-            question: "Where can I get some?",
-            answer: "There are many variations of passages of Lorem Ipsum available.",
-        },
-        {
-            question: "Why do we use it?",
-            answer: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-        },
-        {
-            question: "Where does it come from?",
-            answer: "Contrary to popular belief, Lorem Ipsum is not simply random text.",
+            question:
+                "Apa manfaat produk Cozy Cosmetics yang mengandung sarang burung walet?",
+            answer: "Produk Cozy Cosmetics dengan bahan dasar sarang burung walet bisa meningkatkan elastisitas kulit, mengurangi kerutan, dan memberikan kelembapan berkat kandungan nutrisinya.",
         },
     ];
 

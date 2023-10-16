@@ -10,10 +10,33 @@ import {
 import { Footer, Navbar } from "./components/index";
 import "animate.css";
 import ScrollAnimation from "react-animate-on-scroll";
+import { IoArrowUpCircleOutline } from "react-icons/io5";
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
+import { Link } from "react-scroll";
 
 export default function App() {
     return (
-        <div className="h-full w-full bg-[#F6F4F0] overflow-hidden">
+        <div className="h-full w-full bg-[#F6F4F0] overflow-hidden font-poppins relative">
+            <HelmetProvider>
+                <Helmet>
+                    <title>Cozy Cosmetics</title>
+                    <meta
+                        name="description"
+                        content="Cozy Cosmetics adalah merek perawatan kulit yang unik, menghadirkan produk berkualitas tinggi dengan sentuhan alami dari bahan-bahan premium. Keunggulan kami terletak pada penggunaan sarang walet murni dan lemak coklat yang memberikan manfaat luar biasa untuk kulit Anda. Produk kami didesain untuk memberikan perasaan kenyamanan dan kelembutan, membantu merawat kulit dengan nutrisi alami yang eksklusif."
+                    />
+                    <meta
+                        name="keywords"
+                        content="Skincare routine, Produk skincare, Perawatan wajah, Produk kecantikan, Perawatan kulit alami, Perawatan khusus, Kulit berminyak, Kulit kering, Perawatan anti-penuaan, Kulit sensitif, Solusi jerawat, Serum wajah, Masker wajah, Produk perawatan mata, Perawatan kulit pria, Perawatan matahari, Perawatan malam, Produk perawatan organik, Tips perawatan kulit, Perawatan kulit alami untuk kulit cerah. Produk perawatan kulit, perawatan kulit wajah, perawatan kulit alami, produk perawatan organik, serum wajah, perawatan kulit kering, perawatan kulit berminyak, perawatan kulit sensitif, produk kecantikan, perawatan anti-penuaan, solusi jerawat, masker wajah, perawatan matahari, perawatan kulit pria, tips perawatan kulit, perawatan malam, produk perawatan mata, produk perawatan tubuh, perawatan kulit alami untuk kulit cerah, perawatan kulit tubuh."
+                    />
+                    <meta property="og:title" content="Cozy Cosmetics" />
+                    <meta
+                        property="og:description"
+                        content="Cozy Cosmetics adalah merek perawatan kulit yang unik, menghadirkan produk berkualitas tinggi dengan sentuhan alami dari bahan-bahan premium. Keunggulan kami terletak pada penggunaan sarang walet murni dan lemak coklat yang memberikan manfaat luar biasa untuk kulit Anda. Produk kami didesain untuk memberikan perasaan kenyamanan dan kelembutan, membantu merawat kulit dengan nutrisi alami yang eksklusif."
+                    />
+                    <meta property="og:type" content="website" />
+                </Helmet>
+            </HelmetProvider>
             <div className="flex flex-col items-center justify-center">
                 <div className="w-full">
                     <Navbar />
@@ -78,6 +101,17 @@ export default function App() {
                 </div>
             </div>
             <Footer />
+            <div className="fixed bottom-5 right-5 z-50">
+                <Link
+                    to="homeSection"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >
+                    <IoArrowUpCircleOutline className="text-5xl md:text-6xl text-black rotate-180 cursor-pointer animate-bounce" />
+                </Link>
+            </div>
         </div>
     );
 }

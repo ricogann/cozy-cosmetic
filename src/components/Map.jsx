@@ -7,7 +7,7 @@ export default function Map() {
                 height="150"
                 loading="lazy"
                 title="map"
-                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=upn&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Jl. Mastrip No. 57, Kec. Wlingi, Kab. Blitar&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             ></iframe>
         </div>
     );

@@ -1,10 +1,12 @@
+/* eslint-disable react/jsx-no-target-blank */
 import Map from "../components/Map";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 export default function Alamat() {
     return (
         <div className="gap-5 flex flex-col p-14" id="mapSection">
             <div className="relative">
-                <h1 className="text-[30px] text-center text-[#333] font-semibold lg:text-[48px]" >
+                <h1 className="text-[30px] text-center text-[#333] font-semibold lg:text-[48px]">
                     Alamat
                 </h1>
                 <svg
@@ -22,13 +24,23 @@ export default function Alamat() {
                     />
                 </svg>
             </div>
-            <div className="justify-center items-center flex flex-col mt-8 mb-8 lg:flex-col " >
+            <div className="justify-center items-center flex flex-col mt-8 mb-8 lg:flex-col ">
                 <Map />
-                <h3 className="text-[15px] text-center text-[#A0A79A] mt-4 lg:text-[25px] lg:mt-10 lg:mx-24">
+                <h3 className="text-[15px] text-center text-[#A0A79A] mt-4 lg:text-[25px] lg:mt-10 md:mx-28 ">
                     Merupakan produk perawatan wajah dari Cozy Cosmetic yang
                     terbuat dari bahan alami, aman dan sudah bersertifikat CPKB
                     (Cara Pembuatan Kosmetik yang Baik) dari BPOM.
                 </h3>
+                <button className="flex items-center justify-center gap-2 p-3 px-7 w-full bg-[#3F6745] mt-6 text-white rounded-md md:w-[70%] lg:w-[77%]">
+                    <AiOutlineShoppingCart className="text-[15px] lg:text-[18px]" />
+                    <a
+                        href="https://wa.me/+6285772321734"
+                        target="_blank"
+                        className="text-[15px] lg:text-[18px]"
+                    >
+                        Konsultasi Sekarang
+                    </a>
+                </button>
             </div>
         </div>
     );
