@@ -63,22 +63,18 @@ export default function Testimoni() {
     const Testimoni_ = [
         {
             name: "Dhila",
-            image: BsPerson,
             desc: "Saya sangat merekomendasikan Cozy Cosmetic kepada siapa pun yang ingin mendapatkan kulit wajah yang sehat dan cantik.",
         },
         {
             name: "Arum",
-            image: BsPerson,
             desc: "Cozy Cosmetic berbahan dasar burung walet membuat kulit saya terasa lebih kenyal dan bercahaya.",
         },
         {
             name: "Tasya",
-            image: BsPerson,
             desc: "Hasil penggunaan Cozy Cosmetic sangat memuaskan, wajah saya terlihat lebih segar dan bersinar.",
         },
         {
             name: "Rara",
-            image: BsPerson,
             desc: "Produk terbaik dengan bahan yang juga terbaik! Hasilnya sangat memuaskan!",
         },
     ];
@@ -95,7 +91,6 @@ export default function Testimoni() {
                     <div className="" key={index}>
                         <TestimoniCard
                             name={Testimoni_.name}
-                            image={Testimoni_.image}
                             desc={Testimoni_.desc}
                         />
                     </div>

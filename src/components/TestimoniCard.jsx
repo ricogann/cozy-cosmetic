@@ -1,6 +1,6 @@
 import { BsPerson } from "react-icons/bs";
 
-export default function Testimoni({ name, image, desc }) {
+export default function Testimoni({ name, desc }) {
     return (
         <div className="w-[280px] h-[280px] md:h-[250px] lg:w-[350px] mb-5 text-[#333]">
             <div className="flex flex-col items-center">
