@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import TestimoniCard from "../components/TestimoniCard";
-import { Punipun, Larisa, Edelyn } from "../assets/index";
+import { BsPerson } from "react-icons/bs";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
@@ -62,26 +62,31 @@ export default function Testimoni() {
     };
     const Testimoni_ = [
         {
-            name: "Edelyn",
-            image: Edelyn,
+            name: "Dhila",
+            image: BsPerson,
             desc: "Saya sangat merekomendasikan Cozy Cosmetic kepada siapa pun yang ingin mendapatkan kulit wajah yang sehat dan cantik.",
         },
         {
-            name: "Larisa",
-            image: Larisa,
+            name: "Arum",
+            image: BsPerson,
             desc: "Cozy Cosmetic berbahan dasar burung walet membuat kulit saya terasa lebih kenyal dan bercahaya.",
         },
         {
-            name: "Punipun",
-            image: Punipun,
+            name: "Tasya",
+            image: BsPerson,
             desc: "Hasil penggunaan Cozy Cosmetic sangat memuaskan, wajah saya terlihat lebih segar dan bersinar.",
+        },
+        {
+            name: "Rara",
+            image: BsPerson,
+            desc: "Produk terbaik dengan bahan yang juga terbaik! Hasilnya sangat memuaskan!",
         },
     ];
     return (
-        <div className="xl:h-screen">
+        <div className="xl:my-48">
             <h1
                 className="text-center text-[#333] mb-10 text-[30px] lg:text-[48px] font-semibold"
-                id="souvenirSection"
+                id="testimoniSection"
             >
                 Testimoni
             </h1>

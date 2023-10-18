@@ -37,7 +37,7 @@ export default function Home() {
                         </h1>
                         <h3 className="text-[15px] text-[#A0A79A] mt-2 lg:text-[18px]">
                             Merupakan produk perawatan wajah dari Cozy Cosmetic
-                            yan6g terbuat dari bahan alami, aman dan sudah
+                            yang terbuat dari bahan alami, aman dan sudah
                             bersertifikat CPKB (Cara Pembuatan Kosmetik yang
                             Baik) dari BPOM.
                         </h3>

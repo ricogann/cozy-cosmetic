@@ -6,7 +6,7 @@ import {
     Intruduction,
     Problem,
     Souvenir,
-    Testimoni
+    Testimoni,
 } from "./sections/index";
 import { Footer, Navbar } from "./components/index";
 import "animate.css";
@@ -82,7 +82,7 @@ export default function App() {
                         <Products />
                     </ScrollAnimation>
                 </div>
-                <div className="w-3/4 my-24 md:ml-32 lg:my-0 ">
+                <div className="w-3/4 my-24 md:ml-32 lg:my-0">
                     <ScrollAnimation
                         animateIn="animate__animated animate__bounceInLeft"
                         animateOnce={true}
@@ -100,7 +100,7 @@ export default function App() {
                         </ScrollAnimation>
                     </div>
                 </div>
-                <div className="flex items-center justify-center md:ml-28  w-screen">
+                <div className="w-3/4 my-24 md:ml-32 lg:my-0">
                     <div className="">
                         <ScrollAnimation
                             animateIn="animate__animated animate__animate__backInUp"

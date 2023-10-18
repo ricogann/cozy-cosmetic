@@ -3,7 +3,7 @@ export default function Product({ name, image, desc }) {
         window.open("https://mtsnuhati.com/tokowa/", "_blank");
     };
     return (
-        <div className="flex flex-col items-center justify-between w-[300px] h-[500px] md:h-[430px] lg:w-[340px] mb-5 text-[#333]">
+        <div className="flex flex-col items-center justify-between w-[100px] h-[500px] md:h-[430px] lg:w-[340px] mb-5 text-[#333] overflow-hidden">
             <div className="relative">
                 <img
                     src={image}
